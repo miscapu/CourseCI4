@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Install and Configuration CI4</title>
+</head>
+<body>
+    <!--
+    *************
+    @author Youtube joão Ribeiro
+    =============
+    -->
+
+    <h1>Install and Configuration CI4</h1>
+    <p>
+        For install, only download and put in our root path
+    </p>
+    <p>
+        The configuration starting in:
+    </p>
+    <ul>
+        <li>.env file: This file contain the configurations of our app. Here
+            we must changed our app url, database, and mode of app (production/development).
+            Note important: This file must be duplicated for editing later.
+            This file must have a name: .env ***important
+        </li>
+        <li>
+            app/config/App.php: Here we have the config initial for our app:
+            as timezone, locale
+        </li>
+        <li>
+            app/config/Database.php: Here we can put our data for DB
+        </li>
+        <li>
+            app/config/routes.php: Here we can edit our routes for controllers and URI of our app
+        </li>
+    </ul>
+</body>
+</html>
